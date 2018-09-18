@@ -13,4 +13,6 @@ def test_variables():
 
 def test_instance_methods():
     assert daniel.greeting() == "Hey, how are you?"
+    assert daniel.ask_for_destination() == "Where would you like to go today?"
     assert niky.in_a_hurry() == "Punch it! They're on our tail!"
+    assert niky.reply_greeting() == "I am doing well! Thanks for picking me up today!"

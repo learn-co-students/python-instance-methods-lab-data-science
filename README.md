@@ -17,26 +17,18 @@ In the `Driver` class, define the instance method `greeting` that returns the st
 
 In the `Passenger` class, define the instance method `reply_greeting` that returns the string `"I am doing well! Thanks for picking me up today!"`. Then define the method `in_a_hurry`, which returns the string `"Punch it! They're on our tail!"`. 
 
-Again, we have both a driver.py and passenger.py file included in our directory. Use these files to define your classes and instance methods.
+Define these classes and instance methods in the cells below
     
-> **Remember:** *as we learned in the previous lesson, we need to define our instance methods with at least one argument in order to call them on instance objects. Don't worry, we will explain this more in a later lesson.*
-
-> **Note:** the next cell is loading an extension, `autoreload`, from IPython. This tool simply reimports our code right before we execute any python (i.e. run a cell with Python code). This ensures that any update we make in our other files, passenger.py and driver.py, will be reflected in the jupyter notebook. Don't worry about autoreload for now, just run the cell once and forget about it. 
+> **Remember:** *as we learned in the previous lesson, we need to define our instance methods with at least one argument (`self`) in order to call them on an instance object. Don't worry, we will learn more about this argument in a later lesson.*
 
 
 ```python
-%load_ext autoreload
-%autoreload 2
+# Define Passenger class here
 ```
 
 
 ```python
-# import Passenger here
-```
-
-
-```python
-# import Driver here
+# Define Driver class here
 ```
 
 ## Instantiate Instances and Practice Using Instance Methods
@@ -52,7 +44,7 @@ niky = None # passenger
 terrance = None # passenger
 ```
 
-Alright, we have our passengers and drivers! Now we need to put those instance methods to use. Try them out and assign the return values to variables below. Let's have `daniel` greet his passenger, who is going to be `niky`. Assign the greeting to the variable, `polite_greeting`. Have `niky` respond by calling `in_a_hurry`, and assign the return value to the variable, `no_time_to_talk`.
+Alright, we have our passengers and drivers! Now we need to put those instance methods to use. Try them out and assign the return values to the variables below. Let's have `daniel` greet his passenger, who is going to be `niky`. Assign the greeting to the variable, `polite_greeting`. Have `niky` respond by calling `in_a_hurry`, and assign the return value to the variable, `no_time_to_talk`.
 
 
 ```python
